@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!------------ Html ------------>
+<html lang="en">
+  <!------------ Head ------------>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Agency</title>
+    <!------------ CSS ------------>
+    <link rel="stylesheet" href="lib/normalize_v8.0.1.css">
+    <link rel="stylesheet" href="lib/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head> <!-- Head -->
+  <!------------ Body ------------>
+  <body>
+    <!------------ Settings ------------>
+    <div class="settings">
+      <!------------ Collapse ------------>
+      <button class="collapse">
+        <i class="fa fa-gear"></i>
+      </button> <!-- Collapse -->
+      <!------------ Change Color ------------>
+      <div class="setting">
+        <!------------ Title ------------>
+        <h4>Change Color</h4>
+        <!------------ Colors ------------>
+        <ul class="change-colors">
+          <li data-color="#ff9800" class="active"></li>
+          <li data-color="#e91e63"></li>
+          <li data-color="#009688"></li>
+          <li data-color="#03a9f4"></li>
+          <li data-color="#4caf50"></li>
+        </ul> <!-- Colors -->
+      </div> <!-- Change Color -->
+      <!------------ Random Background ------------>
+      <div class="setting">
+        <h4>Random Background</h4>
+        <div class="random-background">
+          <button type="button" data-random-background="yes" id="yes-random-background" class="active">Yes</button>
+          <button type="button" data-random-background="no" id="no-random-background">No</button>
+        </div>
+      </div> <!-- Random Background -->
+      <!------------ Show Bullets ------------>
+      <div class="setting">
+        <h4>Show Bullets</h4>
+        <div class="show-bullets">
+          <button type="button" data-show-bullets="yes" id="yes-show-bullets" class="active">Yes</button>
+          <button type="button" data-show-bullets="no" id="no-show-bullets">No</button>
+        </div>
+      </div> <!-- Show Bullets -->
+      <!------------ Reset Settings ------------>
+      <div class="setting">
+        <h4>Reset Settings</h4>
+        <div class="reset-settings">
+          <button type="button" class="active">Reset</button>
+        </div>
+      </div> <!-- Reset Settings -->
+    </div> <!-- Settings -->
+    <!------------ Nav Bullets ------------>
+    <div class="nav-bullets">
+      <div data-section="about-us"><span>About</span></div>
+      <div data-section="our-skills"><span>Skills</span></div>
+      <div data-section="our-gallery"><span>Gallery</span></div>
+      <div data-section="timeline"><span>Timelin</span></div>
+      <div data-section="features"><span>Features</span></div>
+      <div data-section="testimonials"><span>Testimonials</span></div>
+      <div data-section="contact"><span>Contact</span></div>
+    </div> <!-- Nav Bullets -->
+    <!------------ Navbar ------------>
+    <nav class="navbar">
+      <!------------ Container ------------>
+      <div class="container">
+        <!------------ Logo ------------>
+        <a href="index.htm" class="logo">
+          <span>Creative</span> Agency
+        </a> <!-- Logo -->
+        <i class="fa fa-bars"></i>
+        <!------------ Menu ------------>
+        <div class="menus">
+          <!------------ Nav ------------>
+          <ul class="nav">
+            <li><a href="#" data-section="about-us">About</a></li>
+            <li><a href="#" data-section="our-skills">Skills</a></li>
+            <li><a href="#" data-section="our-gallery">Gallery</a></li>
+            <li><a href="#" data-section="timeline">Timeline</a></li>
+            <li><a href="#" data-section="features">Features</a></li>
+            <li><a href="#" data-section="testimonials">Testimonials</a></li>
+            <li><a href="#" data-section="contact">Contact</a></li>
+          </ul> <!-- Nav -->
+        </div> <!-- Menu -->
+      </div> <!-- Container -->
+    </nav> <!-- Navbar -->
+    <!------------ Landing ------------>
+    <header class="landing">
+      <!------------ Container ------------>
+      <div class="container">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorum iusto velit fuga hic autem vero, vel, iure, voluptatum sint quia dignissimos tempora natus nostrum molestias reiciendis sed maxime sunt!</p>
+      </div> <!-- Container -->
+    </header> <!-- Landing -->
+    <!------------ Main ------------>
+    <main>
+      <!------------ About Us ------------>
+      <section class="about-us">
+        <!------------ Container ------------>
+        <div class="container">
+          <!------------ Row ------------>
+          <div class="row">
+            <!------------ About ------------>
+            <div class="about">
+              <h2>About Us</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore totam corporis, asperiores eius id veritatis repudiandae explicabo veniam eaque. Labore ex ab earum sint laboriosam saepe consectetur dolores amet mollitia?</p>
+            </div> <!-- About -->
+            <img src="img/6.webp" alt="About Us">
+          </div> <!-- Row -->
+        </div> <!-- Container -->
+      </section> <!-- About Us -->
+      <!------------ Our Skills ------------>
+      <section class="our-skills">
+        <h2>Our Skills</h2>
+        <!------------ Container ------------>
+        <div class="container">
+          <!------------ Skill ------------>
+          <div class="skill">
+            <p>HTML</p>
+            <!------------ Progress ------------>
+            <div class="progress">
+              <span data-progress="80%"></span>
+            </div> <!-- Progress -->
+          </div> <!-- Skill -->
+          <!------------ Skill ------------>
+          <div class="skill">
+            <p>CSS</p>
+            <!------------ Progress ------------>
+            <div class="progress">
+              <span data-progress="70%"></span>
+            </div> <!-- Progress -->
+          </div> <!-- Skill -->
+          <!------------ Skill ------------>
+          <div class="skill">
+            <p>JavaScript</p>
+            <!------------ Progress ------------>
+            <div class="progress">
+              <span data-progress="90%"></span>
+            </div> <!-- Progress -->
+          </div> <!-- Skill -->
+          <!------------ Skill ------------>
+          <div class="skill">
+            <p>Python</p>
+            <!------------ Progress ------------>
+            <div class="progress">
+              <span data-progress="80%"></span>
+            </div> <!-- Progress -->
+          </div> <!-- Skill -->
+          <!------------ Skill ------------>
+          <div class="skill">
+            <p>PHP</p>
+            <!------------ Progress ------------>
+            <div class="progress">
+              <span data-progress="90%"></span>
+            </div> <!-- Progress -->
+          </div> <!-- Skill -->
+          <!------------ Skill ------------>
+          <div class="skill">
+            <p>MySQL</p>
+            <!------------ Progress ------------>
+            <div class="progress">
+              <span data-progress="70%"></span>
+            </div> <!-- Progress -->
+          </div> <!-- Skill -->
+        </div> <!-- Container -->
+      </section> <!-- Our Skills -->
+      <!------------ Our Gallery ------------>
+      <section class="our-gallery">
+        <h2>Our Gallery</h2>
+        <!------------ Container ------------>
+        <div class="container">
+          <div class="row">
+            <img src="img/1.jpg" alt="1">
+            <img src="img/2.jpg" alt="2">
+            <img src="img/3.jpg" alt="3">
+            <img src="img/4.jpg" alt="4">
+            <img src="img/5.jpg" alt="5">
+            <img src="img/1.jpg" alt="1">
+            <img src="img/2.jpg">
+            <img src="img/3.jpg">
+            <img src="img/4.jpg">
+            <img src="img/5.jpg">
+          </div>
+        </div> <!-- Container -->
+      </section> <!-- Our Gallery -->
+      <!------------ Timeline ------------>
+      <section class="timeline">
+        <h2>Timeline</h2>
+        <!------------ Container ------------>
+        <div class="container">
+          <div class="row">
+            <span>2018</span>
+            <div class="left">
+              <div>
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cum soluta neque adipisci a maiores praesentium doloribus, temporibus, quia quo animi at quam reiciendis sapiente aspernatur culpa dolore quis? Repudiandae.</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+              <div>
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cum soluta neque adipisci a maiores praesentium doloribus, temporibus, quia quo animi at quam reiciendis sapiente aspernatur culpa dolore quis? Repudiandae.</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <span>2017</span>
+            <div class="left">
+              <div>
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cum soluta neque adipisci a maiores praesentium doloribus, temporibus, quia quo animi at quam reiciendis sapiente aspernatur culpa dolore quis? Repudiandae.</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="left">
+              <div>
+                <h3>Testing Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cum soluta neque adipisci a maiores praesentium doloribus, temporibus, quia quo animi at quam reiciendis sapiente aspernatur culpa dolore quis? Repudiandae.</p>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div> <!-- Container -->
+      </section> <!-- Timeline -->
+      <!------------ Features ------------>
+      <section class="features">
+        <h2>Features</h2>
+        <!------------ Container ------------>
+        <div class="container">
+          <div class="row">
+            <div class="feature">
+              <div>
+                <img src="img/6.webp">
+              </div>
+              <h4>Development</h4>
+              <p>We Are Professional Marketeers, We Will Do Anything You Imagine In No Time</p>
+            </div>
+            <div class="feature">
+              <div>
+                <img src="img/6.webp">
+              </div>
+              <h4>Development</h4>
+              <p>We Are Professional Marketeers, We Will Do Anything You Imagine In No Time</p>
+            </div>
+            <div class="feature">
+              <div>
+                <img src="img/6.webp">
+              </div>
+              <h4>Development</h4>
+              <p>We Are Professional Marketeers, We Will Do Anything You Imagine In No Time</p>
+            </div>
+            <div class="feature">
+              <div>
+                <img src="img/6.webp">
+              </div>
+              <h4>Development</h4>
+              <p>We Are Professional Marketeers, We Will Do Anything You Imagine In No Time</p>
+            </div>
+            <div class="feature">
+              <div>
+                <img src="img/6.webp">
+              </div>
+              <h4>Development</h4>
+              <p>We Are Professional Marketeers, We Will Do Anything You Imagine In No Time</p>
+            </div>
+            <div class="feature">
+              <div>
+                <img src="img/6.webp">
+              </div>
+              <h4>Development</h4>
+              <p>We Are Professional Marketeers, We Will Do Anything You Imagine In No Time</p>
+            </div>
+          </div>
+        </div> <!-- Container -->
+      </section> <!-- Features -->
+      <!------------ Testimonials ------------>
+      <section class="testimonials">
+        <h2>Testimonials</h2>
+        <!------------ Row ------------>
+        <div class="container">
+          <div class="row">
+            <div class="testimonial">
+              <p>Lorem ipsum dolor sit amet adipisicing elit. consectetur</p>
+              <div class="col">
+                <img src="img/6.webp" alt="">
+                <div>
+                  <h4>Full Name</h4>
+                  <p>CEO At Company</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <p>Lorem ipsum dolor sit amet adipisicing elit. consectetur</p>
+              <div class="col">
+                <img src="img/6.webp" alt="">
+                <div>
+                  <h4>Full Name</h4>
+                  <p>CEO At Company</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <p>Lorem ipsum dolor sit amet adipisicing elit. consectetur</p>
+              <div class="col">
+                <img src="img/6.webp" alt="">
+                <div>
+                  <h4>Full Name</h4>
+                  <p>CEO At Company</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- Row -->
+      </section> <!-- Testimonials -->
+      <!------------ Testimonials ------------>
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <!------------ Container ------------>
+        <div class="container">
+          <form action="#" method="post">
+            <div class="row">
+              <input type="text" name="name" placeholder="Your Name">
+              <input type="number" name="phone" placeholder="Your Phone">
+              <input type="email" name="email" placeholder="Your Email">
+              <input type="text" name="subject" placeholder="Your Subject">
+            </div>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div> <!-- Container -->
+      </section> <!-- Testimonials -->
+    </main> <!-- Main -->
+    <!------------ Footer ------------>
+    <footer class="footer">
+      Created With Love By <a href="http://zizusoft.000.pe">ZizuSoft</a>
+    </footer> <!-- Footer -->
+    <!------------ JavaScript ------------>
+    <script src="js/style.js"></script>
+  </body> <!-- Body -->
+</html> <!-- Html -->
